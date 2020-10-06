@@ -7,13 +7,18 @@
 // Import the state hook
 import React from 'react';
 // Import the Posts (plural!) and SearchBar components, since they are used inside App component
+import SearchBar from "./components/SearchBar/SearchBar";
+import Posts from "./components/Posts/Posts";
+
 // Import the dummyData
+import data from "./dummy-data";
+
 import './App.css';
 
 const App = () => {
   // Create a state called `posts` to hold the array of post objects, **initializing to dummyData**.
   // This state is the source of truth for the data inside the app. You won't be needing dummyData anymore.
-  // To make the search bar work (which is stretch) we'd need another state to hold the search term.
+  // To make the search bar work (which is stretch) we'd need another state to hold the search term. 
 
   const likePost = postId => {
     /*
