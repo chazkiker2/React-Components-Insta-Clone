@@ -8,21 +8,12 @@ import { faComment, faHeart } from '@fortawesome/free-regular-svg-icons';
 
 const LikeSection = props => {
 	// 🔥 Make sure the parent of LikeSection is passing the right props!
-	// const {liked, setLiked} = useState(false);
 	const { likePost, numberOfLikes, liked } = props;
-
-	// const likePostOnce = () => {
-	// 	if (liked) {
-	// 		return;
-	// 	} else {
-	// 		setLiked(true);
-	// 	}
-	// }
 
 	const style = {
 		backgroundColor: (liked ? "red" : "none"),
 	}
-	
+
 	return (
 		<div>
 			<div

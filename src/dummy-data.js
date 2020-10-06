@@ -209,9 +209,6 @@ const dummyData = [
 			},
 		],
 	},
-	
-	// https://instagram.fyip1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/69328055_533490200778767_2466086976307068928_n.jpg?_nc_ht=instagram.fyip1-1.fna.fbcdn.net&_nc_ohc=RIjo3mlhjGoAX8fS3Ps&oh=c7e6b1e38d73a72efa22fe3ce9f6ff16&oe=5FA5D2D3
-	//https://instagram.fyip1-1.fna.fbcdn.net/v/t51.2885-15/e35/120749212_337866620997098_4364239104644663551_n.jpg?_nc_ht=instagram.fyip1-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=TlplgxTrtg4AX8cjMBi&_nc_tp=18&oh=9b9eee299ee9fc917e10b20514b0630f&oe=5FA50AAC
 ];
 
 

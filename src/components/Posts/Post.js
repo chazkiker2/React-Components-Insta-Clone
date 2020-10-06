@@ -5,7 +5,7 @@ import PostHeader from './PostHeader';
 
 const Post = props => {
 	// 🔥 Make sure the parent of Post is passing the right props!
-	const [liked, setLiked]  = useState(false);
+	const [liked, setLiked] = useState(false);
 	const { post, likePost } = props;
 
 	const likePostOnce = () => {
