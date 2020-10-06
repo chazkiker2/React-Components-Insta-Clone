@@ -1,9 +1,3 @@
-/* 
-	Start here and work your way down the nested components.
-	Not all files in the project need code added.
-	Look at each file to see what props need to be passed!
-*/
-
 // Import the state hook
 import React, { useState } from 'react';
 // Import the Posts (plural!) and SearchBar components, since they are used inside App component
@@ -16,12 +10,14 @@ import './App.css';
 
 const App = () => {
 	const [posts, setPosts] = useState(postsData);
+	// const[liked, setLiked]
 	// const [searchTerm, setSearchTerm] = useState("");
 
 	const likePost = postId => {
 		setPosts(posts.map(post => {
 			if (postId === post.id) {
-				return { ...posts, likes: (post.likes + 1) };
+
+				return { ...post, likes: (post.likes + 1) };
 			}
 			return post;
 		}));
